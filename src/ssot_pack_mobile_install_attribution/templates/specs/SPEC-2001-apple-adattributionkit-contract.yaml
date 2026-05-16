@@ -1,0 +1,42 @@
+{
+  "id": "spc:apple-adattributionkit-contract",
+  "number": 2001,
+  "slug": "apple-adattributionkit-contract",
+  "title": "Apple AdAttributionKit Contract",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "pack": "pack:mobile-install-attribution",
+  "scope": {
+    "governs": "Mobile Install And App Attribution",
+    "excludes": [
+      "Other governance packs",
+      "Downstream implementation-specific conformance claims",
+      "Repository-specific feature, claim, test, evidence, boundary, and release rows"
+    ]
+  },
+  "authority_sources": [
+    "Apple AdAttributionKit",
+    "Apple AdAttributionKit attribution rules",
+    "Apple AdServices framework",
+    "Apple AdServices attribution payloads",
+    "Google Play Install Referrer API",
+    "Google Play Install Referrer Library",
+    "Privacy Sandbox on Android Attribution Reporting API"
+  ],
+  "requirements": [
+    "Treat Mobile Install And App Attribution as the only governed domain for this pack.",
+    "Do not cross-link this pack to other governance packs.",
+    "Use packaged ADR and SPEC documents as immutable authority inputs for downstream SSOT synchronization.",
+    "Create downstream features, claims, tests, evidence, risks, boundaries, and releases outside the pack metadata lifecycle."
+  ],
+  "notes": [
+    "This document was seeded from digital-analytics-customer-data-collection-sources.md.",
+    "This pack intentionally does not refer to sibling governance packs."
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:mobile-install-attribution-boundary",
+    "adr:platform-privacy-attribution-policy"
+  ]
+}

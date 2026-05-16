@@ -1,0 +1,38 @@
+[
+  {
+    "id": "adr:mobile-install-attribution-boundary",
+    "number": 1001,
+    "slug": "mobile-install-attribution-boundary",
+    "title": "Mobile Install Attribution Boundary",
+    "filename": "ADR-1001-mobile-install-attribution-boundary.yaml",
+    "target_path": ".ssot/adr/ADR-1001-mobile-install-attribution-boundary.yaml",
+    "sha256": "ef45a5aac35486c70bd0186d7a3c27ce0c40d7c732cf73e93fe82cdd19406a2c",
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:ssot-pack-mobile-install-attribution",
+    "immutable": true,
+    "minimum_schema_version": "0.4.0",
+    "introduced_in": "0.1.0",
+    "status": "accepted",
+    "supersedes": [],
+    "superseded_by": [],
+    "status_notes": []
+  },
+  {
+    "id": "adr:platform-privacy-attribution-policy",
+    "number": 1002,
+    "slug": "platform-privacy-attribution-policy",
+    "title": "Platform Privacy Attribution Policy",
+    "filename": "ADR-1002-platform-privacy-attribution-policy.yaml",
+    "target_path": ".ssot/adr/ADR-1002-platform-privacy-attribution-policy.yaml",
+    "sha256": "88380476a56f3c489a14c45e889407a2f7b8458d293515301855964fdee76ee8",
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:ssot-pack-mobile-install-attribution",
+    "immutable": true,
+    "minimum_schema_version": "0.4.0",
+    "introduced_in": "0.1.0",
+    "status": "accepted",
+    "supersedes": [],
+    "superseded_by": [],
+    "status_notes": []
+  }
+]
