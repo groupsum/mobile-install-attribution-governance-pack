@@ -1,0 +1,29 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1004"
+number: 1004
+slug: "android-privacy-attribution-authority-boundary"
+title: "Android Privacy Attribution Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Privacy Sandbox on Android Attribution Reporting defines privacy-preserving attribution concepts for Android app measurement, but source status can change and may include deprecation risk."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Privacy Sandbox on Android Attribution Reporting defines privacy-preserving attribution concepts for Android app measurement, but source status can change and may include deprecation risk.
+  
+  ## Decision
+  
+  This pack includes Privacy Sandbox on Android Attribution Reporting as an Android privacy attribution target with explicit platform-status handling.
+  
+  Downstream use must classify the target as active, deprecated, informational, or out of bounds based on current platform status and downstream support. This pack must not present deprecated or unavailable Android attribution surfaces as stable implementation targets.
+  
+  ## Authority Sources
+  
+  - Privacy Sandbox on Android Attribution Reporting API.

@@ -1,0 +1,25 @@
+{
+  "id": "adr:android-attribution-reporting-status-policy",
+  "number": 1005,
+  "slug": "android-attribution-reporting-status-policy",
+  "title": "Android Attribution Reporting Status Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Android Attribution Reporting availability and status can affect whether it is an implementation target, an informational target, or out of bounds.",
+    "Downstream systems need explicit platform-status handling before relying on it."
+  ],
+  "decision": [
+    "Classify Android Attribution Reporting as active, deprecated, informational, or out of bounds for the downstream environment.",
+    "Require platform-status evidence before implementation or conformance claims rely on this authority.",
+    "Govern privacy-preserving registration and reporting concepts only when the target is active for the downstream environment.",
+    "Do not present deprecated or unavailable surfaces as stable implementation requirements."
+  ],
+  "authority_sources": ["Privacy Sandbox on Android Attribution Reporting API"],
+  "consequences": [
+    "Evidence must include platform status and version support.",
+    "Deprecated or unavailable support must be represented as a gap or out-of-bounds decision.",
+    "Implementation claims must be blocked when platform status is unresolved."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "adr:mobile-attribution-evidence-policy",
+  "number": 1008,
+  "slug": "mobile-attribution-evidence-policy",
+  "title": "Mobile Attribution Evidence Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Mobile attribution claims require source-specific evidence from platform APIs, token lookup payloads, install referrer retrieval, or platform-status records.",
+    "Evidence must be portable and safe to copy downstream."
+  ],
+  "decision": [
+    "Require source-specific evidence for every downstream mobile attribution conformance claim.",
+    "Use redacted fixtures, API response samples, token lookup payloads, install referrer outputs, attribution-window validation, and platform-status records as appropriate.",
+    "Keep evidence requirements separate for Apple AdAttributionKit, Apple AdServices, Google Play Install Referrer, and Android Attribution Reporting.",
+    "Reject attribution claims that lack source-specific evidence."
+  ],
+  "authority_sources": [
+    "Apple AdAttributionKit",
+    "Apple AdServices framework",
+    "Google Play Install Referrer API",
+    "Privacy Sandbox on Android Attribution Reporting API"
+  ],
+  "consequences": [
+    "Downstream claims must cite concrete evidence artifacts.",
+    "Synthetic or redacted fixtures must preserve governed field shape.",
+    "Platform-status evidence is required for unstable or deprecated targets."
+  ]
+}

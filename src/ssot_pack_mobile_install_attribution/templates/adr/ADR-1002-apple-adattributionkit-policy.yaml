@@ -1,0 +1,28 @@
+{
+  "id": "adr:apple-adattributionkit-policy",
+  "number": 1002,
+  "slug": "apple-adattributionkit-policy",
+  "title": "Apple AdAttributionKit Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Apple AdAttributionKit provides privacy-preserving app-install and re-engagement attribution for registered ad platforms.",
+    "Attribution windows and cooldown behavior affect downstream interpretation of attribution outcomes."
+  ],
+  "decision": [
+    "Document whether AdAttributionKit governs downstream Apple app attribution.",
+    "Govern registered ad platform assumptions, install or re-engagement attribution support, attribution windows, cooldowns, and platform availability.",
+    "Keep AdAttributionKit evidence separate from Apple AdServices token lookup evidence.",
+    "Record platform or OS-version limitations explicitly."
+  ],
+  "authority_sources": [
+    "Apple AdAttributionKit",
+    "Apple AdAttributionKit attribution rules"
+  ],
+  "consequences": [
+    "Evidence must show AdAttributionKit configuration or postback artifacts where applicable.",
+    "Attribution-window claims must cite rule configuration.",
+    "Unsupported Apple attribution modes must be explicit."
+  ]
+}

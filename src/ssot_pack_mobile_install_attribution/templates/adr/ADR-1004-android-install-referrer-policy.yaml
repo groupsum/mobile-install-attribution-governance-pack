@@ -1,0 +1,28 @@
+{
+  "id": "adr:android-install-referrer-policy",
+  "number": 1004,
+  "slug": "android-install-referrer-policy",
+  "title": "Android Install Referrer Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Google Play Install Referrer provides Play Store referral data used for Android install attribution.",
+    "Referrer data includes URLs, timestamps, app version, and instant-experience state that must be retrieved and retained correctly."
+  ],
+  "decision": [
+    "Document whether Google Play Install Referrer is used for downstream Android install attribution.",
+    "Govern referrer URL retrieval, click timestamp, install timestamp, app version, instant-experience state, response handling, and retry behavior.",
+    "Treat install referrer data as an attribution input rather than a generic URL analytics event.",
+    "Record retention and deletion behavior for referrer data."
+  ],
+  "authority_sources": [
+    "Google Play Install Referrer API",
+    "Google Play Install Referrer Library"
+  ],
+  "consequences": [
+    "Evidence must include install referrer retrieval fixtures or mocked API responses.",
+    "Timestamp and app-version behavior must be validated before attribution joins rely on them.",
+    "Failure and retry behavior must be documented."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "adr:mobile-attribution-window-policy",
+  "number": 1007,
+  "slug": "mobile-attribution-window-policy",
+  "title": "Mobile Attribution Window Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Mobile attribution depends on click timestamps, install timestamps, click or view dates, attribution windows, cooldowns, and join assumptions.",
+    "Timing assumptions differ across Apple and Android attribution sources."
+  ],
+  "decision": [
+    "Document attribution windows, cooldowns, timestamp fields, and join timing for each selected mobile attribution source.",
+    "Preserve source-specific timing semantics for AdAttributionKit, AdServices, and Play Install Referrer.",
+    "Normalize timestamps only after recording source field semantics and time zone handling.",
+    "Record unsupported or unknown timing fields as explicit gaps."
+  ],
+  "authority_sources": [
+    "Apple AdAttributionKit attribution rules",
+    "Apple AdServices attribution payload descriptions",
+    "Google Play Install Referrer API"
+  ],
+  "consequences": [
+    "Evidence must include timestamp and attribution-window validation.",
+    "Attribution joins must cite the timing source used.",
+    "Cooldown and lookback assumptions must be reviewable."
+  ]
+}

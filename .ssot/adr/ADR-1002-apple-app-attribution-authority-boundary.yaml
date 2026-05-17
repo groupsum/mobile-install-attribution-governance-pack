@@ -1,0 +1,32 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1002"
+number: 1002
+slug: "apple-app-attribution-authority-boundary"
+title: "Apple App Attribution Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Apple provides multiple app attribution mechanisms with different surfaces and evidence expectations."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Apple provides multiple app attribution mechanisms with different surfaces and evidence expectations.
+  
+  ## Decision
+  
+  This pack includes Apple AdAttributionKit as the Apple privacy-preserving ad attribution authority for app-install and re-engagement attribution across registered ad platforms. It includes AdAttributionKit attribution rules as the authority for app-side attribution windows and cooldown configuration.
+  
+  This pack also includes Apple AdServices as a separate authority for Apple Ads attribution token creation and server-side attribution lookup. AdServices attribution payload descriptions govern campaign, ad group, ad, keyword, placement, claim type, and click or view date fields.
+  
+  ## Authority Sources
+  
+  - Apple AdAttributionKit.
+  - Apple AdAttributionKit attribution rules.
+  - Apple AdServices framework.
+  - Apple AdServices attribution payload descriptions.

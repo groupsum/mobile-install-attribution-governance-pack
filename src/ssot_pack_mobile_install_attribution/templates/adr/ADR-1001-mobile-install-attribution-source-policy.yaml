@@ -1,0 +1,30 @@
+{
+  "id": "adr:mobile-install-attribution-source-policy",
+  "number": 1001,
+  "slug": "mobile-install-attribution-source-policy",
+  "title": "Mobile Install Attribution Source Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Mobile install attribution can rely on multiple platform sources with different trust, evidence, privacy, and availability characteristics.",
+    "Downstream systems need an explicit decision about which platform attribution sources are authoritative."
+  ],
+  "decision": [
+    "Document selected mobile install attribution source families before making attribution claims.",
+    "Classify Apple AdAttributionKit, Apple AdServices, Google Play Install Referrer, and Android Attribution Reporting separately.",
+    "Record unsupported or informational source families as explicit gaps or out-of-bounds targets.",
+    "Do not treat generic campaign URL analytics as mobile platform install attribution."
+  ],
+  "authority_sources": [
+    "Apple AdAttributionKit",
+    "Apple AdServices framework",
+    "Google Play Install Referrer API",
+    "Privacy Sandbox on Android Attribution Reporting API"
+  ],
+  "consequences": [
+    "Attribution claims must identify the source family used.",
+    "Evidence must use source-specific fixtures or API responses.",
+    "Source availability and platform status must be reviewable."
+  ]
+}

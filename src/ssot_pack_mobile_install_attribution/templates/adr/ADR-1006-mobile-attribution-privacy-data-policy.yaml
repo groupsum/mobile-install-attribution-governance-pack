@@ -1,0 +1,30 @@
+{
+  "id": "adr:mobile-attribution-privacy-data-policy",
+  "number": 1006,
+  "slug": "mobile-attribution-privacy-data-policy",
+  "title": "Mobile Attribution Privacy Data Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Mobile attribution payloads can contain attribution tokens, referrer URLs, campaign fields, timestamps, app version, and platform context.",
+    "These fields can be privacy-sensitive and require minimization and evidence controls."
+  ],
+  "decision": [
+    "Document privacy-sensitive attribution fields and their permitted uses.",
+    "Govern retention, redaction, storage location, access controls, deletion, and fixture redaction for attribution artifacts.",
+    "Apply privacy evidence requirements to Apple AdServices, AdAttributionKit, Google Play Install Referrer, and Android Attribution Reporting artifacts.",
+    "Do not publish raw tokens, personal data, or unredacted referrer values in conformance evidence."
+  ],
+  "authority_sources": [
+    "Apple AdServices attribution payload descriptions",
+    "Apple AdAttributionKit",
+    "Google Play Install Referrer API",
+    "Privacy Sandbox on Android Attribution Reporting API"
+  ],
+  "consequences": [
+    "Evidence must be redacted or synthetic where sensitive fields are present.",
+    "Retention and deletion behavior must be documented.",
+    "Privacy review gaps must block affected attribution claims."
+  ]
+}

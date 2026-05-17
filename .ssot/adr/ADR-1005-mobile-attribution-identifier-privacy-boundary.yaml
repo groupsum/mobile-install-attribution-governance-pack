@@ -1,0 +1,32 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1005"
+number: 1005
+slug: "mobile-attribution-identifier-privacy-boundary"
+title: "Mobile Attribution Identifier Privacy Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Mobile attribution payloads can include privacy-sensitive tokens, referrer URLs, timestamps, campaign identifiers, ad identifiers, click or view dates, app version, and app/device context."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Mobile attribution payloads can include privacy-sensitive tokens, referrer URLs, timestamps, campaign identifiers, ad identifiers, click or view dates, app version, and app/device context.
+  
+  ## Decision
+  
+  This pack governs privacy-sensitive attribution artifacts as first-class curation concerns. Attribution tokens, attribution payload fields, referrer URLs, timestamps, campaign fields, app version fields, and platform status evidence must be handled with redaction, retention, access-control, and deletion expectations.
+  
+  This boundary applies to Apple AdServices tokens and payloads, AdAttributionKit attribution data, Google Play Install Referrer fields, and Android Attribution Reporting artifacts.
+  
+  ## Authority Sources
+  
+  - Apple AdServices framework and payload descriptions.
+  - Apple AdAttributionKit and attribution rules.
+  - Google Play Install Referrer API and Library.
+  - Privacy Sandbox on Android Attribution Reporting API.

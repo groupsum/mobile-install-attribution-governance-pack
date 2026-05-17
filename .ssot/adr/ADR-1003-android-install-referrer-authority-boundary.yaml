@@ -1,0 +1,30 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1003"
+number: 1003
+slug: "android-install-referrer-authority-boundary"
+title: "Android Install Referrer Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Google Play Install Referrer provides Android install attribution input through Play Store referral data and timestamps."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Google Play Install Referrer provides Android install attribution input through Play Store referral data and timestamps.
+  
+  ## Decision
+  
+  This pack includes Google Play Install Referrer API and Google Play Install Referrer Library as the Android install referrer authorities.
+  
+  These sources govern secure retrieval of install referrer URL, referrer click timestamp, app install timestamp, app version, instant-experience state, client-library connection lifecycle, response handling, retry behavior, and local evidence capture.
+  
+  ## Authority Sources
+  
+  - Google Play Install Referrer API.
+  - Google Play Install Referrer Library.

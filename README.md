@@ -29,8 +29,14 @@ Mobile Install And App Attribution
 
 ## Included ADRs
 
-- `adr:mobile-install-attribution-boundary` - Mobile Install Attribution Boundary
-- `adr:platform-privacy-attribution-policy` - Platform Privacy Attribution Policy
+- `adr:mobile-install-attribution-source-policy` - Mobile Install Attribution Source Policy
+- `adr:apple-adattributionkit-policy` - Apple AdAttributionKit Policy
+- `adr:apple-adservices-token-policy` - Apple AdServices Token Policy
+- `adr:android-install-referrer-policy` - Android Install Referrer Policy
+- `adr:android-attribution-reporting-status-policy` - Android Attribution Reporting Status Policy
+- `adr:mobile-attribution-privacy-data-policy` - Mobile Attribution Privacy Data Policy
+- `adr:mobile-attribution-window-policy` - Mobile Attribution Window Policy
+- `adr:mobile-attribution-evidence-policy` - Mobile Attribution Evidence Policy
 
 ## Included SPECs
 

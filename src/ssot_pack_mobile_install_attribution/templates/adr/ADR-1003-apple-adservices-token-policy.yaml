@@ -1,0 +1,28 @@
+{
+  "id": "adr:apple-adservices-token-policy",
+  "number": 1003,
+  "slug": "apple-adservices-token-policy",
+  "title": "Apple AdServices Token Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Apple AdServices uses attribution tokens and server-side lookup to retrieve Apple Ads attribution payloads.",
+    "Token handling and lookup timing need separate governance from AdAttributionKit."
+  ],
+  "decision": [
+    "Document whether Apple AdServices attribution token lookup is used.",
+    "Govern attribution token creation, retrieval timing, server-side lookup handoff, response handling, and failure behavior.",
+    "Validate payload fields such as campaign, ad group, ad, keyword, placement, claim type, and click or view date when payloads are consumed.",
+    "Treat tokens and payloads as privacy-sensitive attribution artifacts."
+  ],
+  "authority_sources": [
+    "Apple AdServices framework",
+    "Apple AdServices attribution payload descriptions"
+  ],
+  "consequences": [
+    "Evidence must include redacted token lookup examples or server response fixtures.",
+    "Token retention and access controls must be documented.",
+    "AdServices conformance must not be inferred from AdAttributionKit support."
+  ]
+}

@@ -1,0 +1,35 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1001"
+number: 1001
+slug: "mobile-install-attribution-domain-boundary"
+title: "Mobile Install Attribution Domain Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "The mobile install attribution governance pack curates standards and specifications for mobile install attribution, app campaign attribution, app re-engagement attribution, install referrer retrieval, and platform privacy-preserving attribution."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  The mobile install attribution governance pack curates standards and specifications for mobile install attribution, app campaign attribution, app re-engagement attribution, install referrer retrieval, and platform privacy-preserving attribution.
+  
+  ## Decision
+  
+  This pack governs mobile platform attribution sources only. It includes Apple AdAttributionKit, Apple AdAttributionKit attribution rules, Apple AdServices, Apple AdServices attribution payload descriptions, Google Play Install Referrer API and Library, and Privacy Sandbox on Android Attribution Reporting API.
+  
+  This pack does not govern generic campaign URL attribution, generic app analytics, product analytics events, server conversion APIs, mobile ad SDK viewability, consent-signal frameworks, or customer profile records.
+  
+  ## Authority Sources
+  
+  - Apple AdAttributionKit.
+  - Apple AdAttributionKit attribution rules.
+  - Apple AdServices framework.
+  - Apple AdServices attribution payload descriptions.
+  - Google Play Install Referrer API.
+  - Google Play Install Referrer Library.
+  - Privacy Sandbox on Android Attribution Reporting API.
