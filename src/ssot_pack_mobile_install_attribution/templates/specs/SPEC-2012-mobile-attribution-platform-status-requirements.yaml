@@ -1,0 +1,20 @@
+{
+  "id": "spc:mobile-attribution-platform-status-requirements",
+  "number": 2012,
+  "slug": "mobile-attribution-platform-status-requirements",
+  "title": "Mobile Attribution Platform Status Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "governance",
+  "adr_ids": ["adr:android-attribution-reporting-status-policy", "adr:mobile-attribution-evidence-policy"],
+  "primary_targets": ["Apple and Android platform attribution sources"],
+  "scope": {"governs": ["platform availability", "deprecation status", "version support", "source-status evidence"], "excludes": ["payload field validation", "campaign field normalization"]},
+  "requirements": [
+    "Document platform availability and version support for each mobile attribution source.",
+    "Record deprecation or informational-only status before downstream implementation claims are made.",
+    "Require source-status evidence for unstable platform targets.",
+    "Block conformance claims when platform status is unresolved."
+  ],
+  "evidence_expectations": ["Platform status note", "Version support matrix", "Deprecation or out-of-bounds decision where applicable"]
+}

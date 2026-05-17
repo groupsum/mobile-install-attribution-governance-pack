@@ -1,0 +1,32 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2003"
+number: 2003
+slug: "google-play-install-referrer-target-requirements"
+title: "Google Play Install Referrer Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for Google Play Install Referrer source coverage."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for Google Play Install Referrer source coverage.
+  
+  ## Requirements
+  
+  - Google Play Install Referrer API coverage must govern secure retrieval of referrer URL, referrer click timestamp, app install timestamp, app version, and instant-experience state.
+  - Google Play Install Referrer Library coverage must govern client-library connection lifecycle, response handling, retry or failure behavior, and local API use evidence.
+  - Install referrer targets must be treated as Android platform attribution inputs, not generic query string analytics.
+  - Install referrer evidence must include retrieval fixtures or mocked API responses with sensitive values redacted.
+  
+  ## Evidence Expectations
+  
+  - Target inventory for Google Play Install Referrer API and Library.
+  - Template review showing separate downstream conformance targets for API data and library behavior.
+spec_kind: "governance"

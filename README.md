@@ -40,10 +40,18 @@ Mobile Install And App Attribution
 
 ## Included SPECs
 
-- `spc:apple-adattributionkit-contract` - Apple AdAttributionKit Contract
-- `spc:apple-adservices-contract` - Apple AdServices Contract
-- `spc:google-play-install-referrer-contract` - Google Play Install Referrer Contract
-- `spc:android-attribution-reporting-contract` - Android Attribution Reporting Contract
+- `spc:apple-adattributionkit-framework-requirements` - Apple AdAttributionKit Framework Requirements
+- `spc:apple-adattributionkit-attribution-rule-requirements` - Apple AdAttributionKit Attribution Rule Requirements
+- `spc:apple-adservices-token-requirements` - Apple AdServices Token Requirements
+- `spc:apple-adservices-attribution-payload-requirements` - Apple AdServices Attribution Payload Requirements
+- `spc:google-play-install-referrer-api-requirements` - Google Play Install Referrer API Requirements
+- `spc:google-play-install-referrer-library-requirements` - Google Play Install Referrer Library Requirements
+- `spc:android-attribution-reporting-api-requirements` - Android Attribution Reporting API Requirements
+- `spc:mobile-attribution-token-retention-requirements` - Mobile Attribution Token Retention Requirements
+- `spc:mobile-attribution-timestamp-requirements` - Mobile Attribution Timestamp Requirements
+- `spc:mobile-attribution-campaign-field-requirements` - Mobile Attribution Campaign Field Requirements
+- `spc:mobile-attribution-privacy-review-requirements` - Mobile Attribution Privacy Review Requirements
+- `spc:mobile-attribution-platform-status-requirements` - Mobile Attribution Platform Status Requirements
 
 ## Install With uv
 

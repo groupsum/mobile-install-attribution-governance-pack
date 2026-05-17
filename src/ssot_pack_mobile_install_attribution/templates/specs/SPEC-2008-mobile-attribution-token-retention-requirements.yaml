@@ -1,0 +1,20 @@
+{
+  "id": "spc:mobile-attribution-token-retention-requirements",
+  "number": 2008,
+  "slug": "mobile-attribution-token-retention-requirements",
+  "title": "Mobile Attribution Token Retention Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "governance",
+  "adr_ids": ["adr:mobile-attribution-privacy-data-policy"],
+  "primary_targets": ["Apple AdServices", "Apple AdAttributionKit", "Google Play Install Referrer"],
+  "scope": {"governs": ["retention", "redaction", "storage location", "access controls", "deletion of attribution tokens and referrers"], "excludes": ["campaign field normalization", "attribution-window calculation"]},
+  "requirements": [
+    "Document retention and deletion behavior for attribution tokens and referrers.",
+    "Validate redaction and access-control handling for evidence artifacts.",
+    "Record storage location and ownership for retained attribution artifacts.",
+    "Reject raw sensitive attribution artifacts in portable evidence."
+  ],
+  "evidence_expectations": ["Retention note", "Redacted fixture", "Access-control or deletion evidence"]
+}

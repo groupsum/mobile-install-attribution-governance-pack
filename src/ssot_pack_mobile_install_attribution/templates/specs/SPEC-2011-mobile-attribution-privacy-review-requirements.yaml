@@ -1,0 +1,20 @@
+{
+  "id": "spc:mobile-attribution-privacy-review-requirements",
+  "number": 2011,
+  "slug": "mobile-attribution-privacy-review-requirements",
+  "title": "Mobile Attribution Privacy Review Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "governance",
+  "adr_ids": ["adr:mobile-attribution-privacy-data-policy", "adr:mobile-attribution-evidence-policy"],
+  "primary_targets": ["All mobile attribution payload targets"],
+  "scope": {"governs": ["redacted fixtures", "sensitive field inventory", "privacy review evidence", "identifier minimization"], "excludes": ["platform API implementation", "campaign reporting dashboards"]},
+  "requirements": [
+    "Inventory privacy-sensitive attribution fields before evidence publication.",
+    "Require redacted or synthetic fixtures for sensitive fields.",
+    "Document minimization, retention, and access-control decisions.",
+    "Block attribution claims when privacy review evidence is missing."
+  ],
+  "evidence_expectations": ["Sensitive field inventory", "Redacted fixture review", "Privacy review note"]
+}

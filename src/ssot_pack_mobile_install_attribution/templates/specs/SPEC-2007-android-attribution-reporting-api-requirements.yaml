@@ -1,0 +1,20 @@
+{
+  "id": "spc:android-attribution-reporting-api-requirements",
+  "number": 2007,
+  "slug": "android-attribution-reporting-api-requirements",
+  "title": "Android Attribution Reporting API Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "governance",
+  "adr_ids": ["adr:android-attribution-reporting-status-policy", "adr:mobile-attribution-evidence-policy"],
+  "primary_targets": ["Privacy Sandbox on Android Attribution Reporting API"],
+  "scope": {"governs": ["attribution registration", "trigger or conversion reporting", "aggregation concepts", "platform status handling"], "excludes": ["Google Play Install Referrer", "Apple attribution APIs"]},
+  "requirements": [
+    "Classify the Android Attribution Reporting target as active, deprecated, informational, or out of bounds.",
+    "Document registration and reporting concepts only when the target is active for the downstream environment.",
+    "Require platform-status evidence before implementation claims are accepted.",
+    "Record unavailable or deprecated status as a governed gap."
+  ],
+  "evidence_expectations": ["Platform-status evidence", "Registration/reporting fixture where active", "Out-of-bounds or deprecation note where applicable"]
+}

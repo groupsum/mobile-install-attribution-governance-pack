@@ -1,0 +1,20 @@
+{
+  "id": "spc:apple-adservices-token-requirements",
+  "number": 2003,
+  "slug": "apple-adservices-token-requirements",
+  "title": "Apple AdServices Token Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "governance",
+  "adr_ids": ["adr:apple-adservices-token-policy", "adr:mobile-attribution-privacy-data-policy"],
+  "primary_targets": ["Apple AdServices framework"],
+  "scope": {"governs": ["attribution token creation", "token retrieval timing", "server-side lookup handoff", "failure handling"], "excludes": ["AdAttributionKit postbacks", "Google Play referrer retrieval"]},
+  "requirements": [
+    "Document token creation and retrieval timing for attribution lookup.",
+    "Validate server-side lookup handoff and failure handling.",
+    "Treat attribution tokens as privacy-sensitive artifacts.",
+    "Capture redacted token lookup evidence."
+  ],
+  "evidence_expectations": ["Redacted token fixture", "Lookup handoff test", "Failure-handling sample"]
+}

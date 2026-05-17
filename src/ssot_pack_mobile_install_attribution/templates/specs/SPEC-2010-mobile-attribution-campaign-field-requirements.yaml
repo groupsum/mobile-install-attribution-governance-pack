@@ -1,0 +1,20 @@
+{
+  "id": "spc:mobile-attribution-campaign-field-requirements",
+  "number": 2010,
+  "slug": "mobile-attribution-campaign-field-requirements",
+  "title": "Mobile Attribution Campaign Field Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "governance",
+  "adr_ids": ["adr:mobile-install-attribution-source-policy"],
+  "primary_targets": ["Apple AdServices payloads", "Google Play Install Referrer URLs", "app attribution payloads"],
+  "scope": {"governs": ["campaign ID", "campaign name", "ad group", "ad", "keyword", "placement", "referrer parameters", "campaign-field normalization"], "excludes": ["token retention", "platform-status classification"]},
+  "requirements": [
+    "Document campaign fields consumed from mobile attribution sources.",
+    "Validate source-to-local campaign field mappings.",
+    "Preserve source-specific field meanings before local normalization.",
+    "Record unsupported campaign fields and normalization gaps."
+  ],
+  "evidence_expectations": ["Campaign field mapping table", "Redacted payload or referrer fixture", "Normalization validation output"]
+}

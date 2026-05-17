@@ -1,0 +1,34 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2005"
+number: 2005
+slug: "mobile-attribution-privacy-evidence-requirements"
+title: "Mobile Attribution Privacy Evidence Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for privacy evidence across mobile attribution targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for privacy evidence across mobile attribution targets.
+  
+  ## Requirements
+  
+  - Attribution tokens, attribution payloads, referrer URLs, campaign IDs, timestamps, app versions, and platform context fields must have redaction, retention, access-control, and deletion expectations.
+  - Downstream templates must require redacted fixtures or synthetic examples for privacy-sensitive attribution artifacts.
+  - Attribution timing and campaign-field normalization must preserve source-specific field semantics before any local normalization.
+  - Platform status evidence must be required for targets with availability or deprecation risk.
+  
+  ## Evidence Expectations
+  
+  - Redacted fixtures for attribution tokens, payloads, and referrer data.
+  - Retention and deletion notes for attribution artifacts.
+  - Privacy review evidence for sensitive fields.
+  - Platform-status evidence for unstable or deprecated targets.
+spec_kind: "governance"

@@ -1,0 +1,33 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2004"
+number: 2004
+slug: "android-privacy-attribution-target-requirements"
+title: "Android Privacy Attribution Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for Android privacy-preserving attribution target coverage."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for Android privacy-preserving attribution target coverage.
+  
+  ## Requirements
+  
+  - Privacy Sandbox on Android Attribution Reporting coverage must govern attribution registration, trigger or conversion reporting, aggregation concepts, platform availability, and status handling.
+  - This target must carry explicit status classification: active, deprecated, informational, or out of bounds.
+  - Downstream implementation claims must be blocked when platform status is unresolved or unavailable.
+  - Deprecated or unavailable platform surfaces must not be represented as stable implementation targets.
+  
+  ## Evidence Expectations
+  
+  - Target inventory for Privacy Sandbox on Android Attribution Reporting.
+  - Platform-status evidence showing deprecation, availability, or support state.
+  - Template review showing status handling and out-of-bounds behavior where applicable.
+spec_kind: "governance"

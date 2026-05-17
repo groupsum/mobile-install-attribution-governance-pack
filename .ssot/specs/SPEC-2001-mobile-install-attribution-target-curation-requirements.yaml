@@ -1,0 +1,33 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2001"
+number: 2001
+slug: "mobile-install-attribution-target-curation-requirements"
+title: "Mobile Install Attribution Target Curation Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define source-curation requirements for the mobile install attribution governance pack."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define source-curation requirements for the mobile install attribution governance pack.
+  
+  ## Requirements
+  
+  - A source may be included only when it governs mobile install attribution, app campaign attribution, app re-engagement attribution, install referrer retrieval, attribution token lookup, platform privacy attribution, or mobile attribution evidence handling.
+  - Each included source must be classified as one of: Apple app attribution authority, Apple attribution token authority, Android install referrer authority, Android privacy attribution authority, attribution timing authority, attribution campaign field authority, privacy evidence authority, or platform status authority.
+  - Sources that primarily govern generic campaign URL attribution, app analytics events, product analytics, server conversion APIs, ad SDK viewability, consent-signal exchange, or customer identity are out of scope unless they directly define mobile platform attribution behavior.
+  - Every downstream template target must trace back to at least one included source classification.
+  
+  ## Evidence Expectations
+  
+  - Source inventory showing each included target and classification.
+  - Exclusion notes for adjacent sources that are not governed by this pack.
+  - Template manifest review showing source-to-template coverage.
+spec_kind: "governance"

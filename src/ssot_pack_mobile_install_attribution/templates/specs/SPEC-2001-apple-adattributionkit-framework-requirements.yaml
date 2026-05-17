@@ -1,0 +1,20 @@
+{
+  "id": "spc:apple-adattributionkit-framework-requirements",
+  "number": 2001,
+  "slug": "apple-adattributionkit-framework-requirements",
+  "title": "Apple AdAttributionKit Framework Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "governance",
+  "adr_ids": ["adr:apple-adattributionkit-policy", "adr:mobile-install-attribution-source-policy"],
+  "primary_targets": ["Apple AdAttributionKit"],
+  "scope": {"governs": ["install attribution", "re-engagement attribution", "registered ad platform assumptions", "postback or configuration evidence", "platform availability"], "excludes": ["Apple AdServices token lookup", "generic campaign URL analytics"]},
+  "requirements": [
+    "Document whether AdAttributionKit governs install attribution, re-engagement attribution, or both.",
+    "Capture registered ad platform assumptions and platform availability.",
+    "Record postback or configuration evidence for supported flows.",
+    "Keep AdAttributionKit evidence separate from AdServices token lookup evidence."
+  ],
+  "evidence_expectations": ["AdAttributionKit configuration or postback fixture", "Platform availability note", "Supported-flow inventory"]
+}

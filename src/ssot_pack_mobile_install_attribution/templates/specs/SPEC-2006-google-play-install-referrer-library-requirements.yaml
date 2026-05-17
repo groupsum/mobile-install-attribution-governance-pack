@@ -1,0 +1,20 @@
+{
+  "id": "spc:google-play-install-referrer-library-requirements",
+  "number": 2006,
+  "slug": "google-play-install-referrer-library-requirements",
+  "title": "Google Play Install Referrer Library Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "governance",
+  "adr_ids": ["adr:android-install-referrer-policy", "adr:mobile-attribution-evidence-policy"],
+  "primary_targets": ["Google Play Install Referrer Library"],
+  "scope": {"governs": ["client-library connection lifecycle", "response handling", "retry behavior", "failure behavior", "local API use evidence"], "excludes": ["referrer field semantics", "Apple attribution APIs"]},
+  "requirements": [
+    "Document library connection and disconnection behavior.",
+    "Validate response handling, retry behavior, and failure behavior.",
+    "Capture local API use evidence for install referrer retrieval.",
+    "Keep library lifecycle evidence separate from referrer field validation."
+  ],
+  "evidence_expectations": ["Library lifecycle test", "Response handling fixture", "Retry or failure sample"]
+}

@@ -1,0 +1,33 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2002"
+number: 2002
+slug: "apple-attribution-target-requirements"
+title: "Apple Attribution Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for Apple attribution target coverage."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for Apple attribution target coverage.
+  
+  ## Requirements
+  
+  - Apple AdAttributionKit coverage must govern install and re-engagement attribution support, registered ad platform assumptions, postback or configuration evidence, and platform availability.
+  - Apple AdAttributionKit attribution rules coverage must govern attribution windows, cooldowns, and app-side attribution rule configuration.
+  - Apple AdServices coverage must govern attribution token creation, token retrieval timing, server-side lookup handoff, and failure handling.
+  - Apple AdServices attribution payload coverage must govern campaign, ad group, ad, keyword, placement, claim type, click date, view date, and payload validation.
+  - AdAttributionKit and AdServices must remain separate target families.
+  
+  ## Evidence Expectations
+  
+  - Target inventory for AdAttributionKit, attribution rules, AdServices framework, and AdServices payload descriptions.
+  - Template review showing separate downstream conformance targets for each Apple source family.
+spec_kind: "governance"

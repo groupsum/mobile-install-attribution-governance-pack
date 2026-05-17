@@ -1,0 +1,20 @@
+{
+  "id": "spc:google-play-install-referrer-api-requirements",
+  "number": 2005,
+  "slug": "google-play-install-referrer-api-requirements",
+  "title": "Google Play Install Referrer API Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "governance",
+  "adr_ids": ["adr:android-install-referrer-policy", "adr:mobile-attribution-window-policy", "adr:mobile-attribution-privacy-data-policy"],
+  "primary_targets": ["Google Play Install Referrer API"],
+  "scope": {"governs": ["referrer URL", "click timestamp", "install timestamp", "app version", "instant-experience state"], "excludes": ["Install Referrer Library connection lifecycle", "Android Attribution Reporting"]},
+  "requirements": [
+    "Document secure retrieval of install referrer fields.",
+    "Validate referrer URL, click timestamp, install timestamp, app version, and instant-experience state handling.",
+    "Treat referrer data as attribution input with retention and redaction controls.",
+    "Capture retrieval output evidence using redacted or synthetic values."
+  ],
+  "evidence_expectations": ["Referrer retrieval fixture", "Timestamp validation output", "Retention and redaction note"]
+}
