@@ -49,29 +49,29 @@ Mobile Install And App Attribution
 
 ## Included ADRs
 
-- `adr:mobile-install-attribution-source-policy` - Mobile Install Attribution Source Policy
-- `adr:apple-adattributionkit-policy` - Apple AdAttributionKit Policy
-- `adr:apple-adservices-token-policy` - Apple AdServices Token Policy
-- `adr:android-install-referrer-policy` - Android Install Referrer Policy
-- `adr:android-attribution-reporting-status-policy` - Android Attribution Reporting Status Policy
-- `adr:mobile-attribution-privacy-data-policy` - Mobile Attribution Privacy Data Policy
-- `adr:mobile-attribution-window-policy` - Mobile Attribution Window Policy
-- `adr:mobile-attribution-evidence-policy` - Mobile Attribution Evidence Policy
+- [`adr:mobile-install-attribution-source-policy`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/adr/ADR-1001-mobile-install-attribution-source-policy.yaml) - Mobile Install Attribution Source Policy
+- [`adr:apple-adattributionkit-policy`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/adr/ADR-1002-apple-adattributionkit-policy.yaml) - Apple AdAttributionKit Policy
+- [`adr:apple-adservices-token-policy`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/adr/ADR-1003-apple-adservices-token-policy.yaml) - Apple AdServices Token Policy
+- [`adr:android-install-referrer-policy`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/adr/ADR-1004-android-install-referrer-policy.yaml) - Android Install Referrer Policy
+- [`adr:android-attribution-reporting-status-policy`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/adr/ADR-1005-android-attribution-reporting-status-policy.yaml) - Android Attribution Reporting Status Policy
+- [`adr:mobile-attribution-privacy-data-policy`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/adr/ADR-1006-mobile-attribution-privacy-data-policy.yaml) - Mobile Attribution Privacy Data Policy
+- [`adr:mobile-attribution-window-policy`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/adr/ADR-1007-mobile-attribution-window-policy.yaml) - Mobile Attribution Window Policy
+- [`adr:mobile-attribution-evidence-policy`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/adr/ADR-1008-mobile-attribution-evidence-policy.yaml) - Mobile Attribution Evidence Policy
 
 ## Included SPECs
 
-- `spc:apple-adattributionkit-framework-requirements` - Apple AdAttributionKit Framework Requirements
-- `spc:apple-adattributionkit-attribution-rule-requirements` - Apple AdAttributionKit Attribution Rule Requirements
-- `spc:apple-adservices-token-requirements` - Apple AdServices Token Requirements
-- `spc:apple-adservices-attribution-payload-requirements` - Apple AdServices Attribution Payload Requirements
-- `spc:google-play-install-referrer-api-requirements` - Google Play Install Referrer API Requirements
-- `spc:google-play-install-referrer-library-requirements` - Google Play Install Referrer Library Requirements
-- `spc:android-attribution-reporting-api-requirements` - Android Attribution Reporting API Requirements
-- `spc:mobile-attribution-token-retention-requirements` - Mobile Attribution Token Retention Requirements
-- `spc:mobile-attribution-timestamp-requirements` - Mobile Attribution Timestamp Requirements
-- `spc:mobile-attribution-campaign-field-requirements` - Mobile Attribution Campaign Field Requirements
-- `spc:mobile-attribution-privacy-review-requirements` - Mobile Attribution Privacy Review Requirements
-- `spc:mobile-attribution-platform-status-requirements` - Mobile Attribution Platform Status Requirements
+- [`spc:apple-adattributionkit-framework-requirements`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/specs/SPEC-2001-apple-adattributionkit-framework-requirements.yaml) - Apple AdAttributionKit Framework Requirements
+- [`spc:apple-adattributionkit-attribution-rule-requirements`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/specs/SPEC-2002-apple-adattributionkit-attribution-rule-requirements.yaml) - Apple AdAttributionKit Attribution Rule Requirements
+- [`spc:apple-adservices-token-requirements`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/specs/SPEC-2003-apple-adservices-token-requirements.yaml) - Apple AdServices Token Requirements
+- [`spc:apple-adservices-attribution-payload-requirements`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/specs/SPEC-2004-apple-adservices-attribution-payload-requirements.yaml) - Apple AdServices Attribution Payload Requirements
+- [`spc:google-play-install-referrer-api-requirements`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/specs/SPEC-2005-google-play-install-referrer-api-requirements.yaml) - Google Play Install Referrer API Requirements
+- [`spc:google-play-install-referrer-library-requirements`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/specs/SPEC-2006-google-play-install-referrer-library-requirements.yaml) - Google Play Install Referrer Library Requirements
+- [`spc:android-attribution-reporting-api-requirements`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/specs/SPEC-2007-android-attribution-reporting-api-requirements.yaml) - Android Attribution Reporting API Requirements
+- [`spc:mobile-attribution-token-retention-requirements`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/specs/SPEC-2008-mobile-attribution-token-retention-requirements.yaml) - Mobile Attribution Token Retention Requirements
+- [`spc:mobile-attribution-timestamp-requirements`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/specs/SPEC-2009-mobile-attribution-timestamp-requirements.yaml) - Mobile Attribution Timestamp Requirements
+- [`spc:mobile-attribution-campaign-field-requirements`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/specs/SPEC-2010-mobile-attribution-campaign-field-requirements.yaml) - Mobile Attribution Campaign Field Requirements
+- [`spc:mobile-attribution-privacy-review-requirements`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/specs/SPEC-2011-mobile-attribution-privacy-review-requirements.yaml) - Mobile Attribution Privacy Review Requirements
+- [`spc:mobile-attribution-platform-status-requirements`](https://github.com/groupsum/mobile-install-attribution-governance-pack/blob/master/src/ssot_pack_mobile_install_attribution/templates/specs/SPEC-2012-mobile-attribution-platform-status-requirements.yaml) - Mobile Attribution Platform Status Requirements
 
 ## Install With uv
 
