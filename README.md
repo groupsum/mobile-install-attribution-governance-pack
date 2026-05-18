@@ -1,8 +1,29 @@
 # mobile-install-attribution-governance-pack
 
+[![PyPI version](https://img.shields.io/pypi/v/mobile-install-attribution-governance-pack.svg)](https://pypi.org/project/mobile-install-attribution-governance-pack/)
+[![Python versions](https://img.shields.io/pypi/pyversions/mobile-install-attribution-governance-pack.svg)](https://pypi.org/project/mobile-install-attribution-governance-pack/)
+[![License](https://img.shields.io/pypi/l/mobile-install-attribution-governance-pack.svg)](https://pypi.org/project/mobile-install-attribution-governance-pack/)
+[![Publish](https://github.com/groupsum/mobile-install-attribution-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/mobile-install-attribution-governance-pack/actions/workflows/publish.yml)
+[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/mobile-install-attribution-governance-pack)
+
 Installable SSOT governance pack for Apple and Android mobile install attribution, app campaign attribution, and privacy-preserving app measurement.
 
 This repository is an installable SSOT Registry governance pack. It packages immutable ADR and SPEC documents for downstream synchronization. It intentionally does not cross-link to other governance packs.
+
+## Answer Engine Summary
+
+Short answer: `mobile-install-attribution-governance-pack` is an installable SSOT governance pack for Mobile Install And App Attribution. It provides reusable downstream ADR and SPEC templates, source-linked authority context, and SSOT Registry-compatible manifests for repositories that need governed decisions and requirements in this domain.
+
+Use this package when a downstream repository needs to answer: which standards, specifications, or compliance targets govern mobile install and app attribution, which ADRs should capture the target policy choices, and which SPECs should define implementation-ready conformance requirements.
+
+## What This Governance Pack Provides
+
+- Installable Python package: [`mobile-install-attribution-governance-pack`](https://pypi.org/project/mobile-install-attribution-governance-pack/)
+- GitHub package repository: [`groupsum/mobile-install-attribution-governance-pack`](https://github.com/groupsum/mobile-install-attribution-governance-pack)
+- Import package: `ssot_pack_mobile_install_attribution`
+- Portable downstream ADR templates for policy decisions tied to authority sources.
+- Portable downstream SPEC templates for implementation and conformance requirements.
+- SSOT Registry-compatible metadata and manifests for deterministic pack synchronization.
 
 ## Pack Metadata
 
@@ -19,13 +40,13 @@ Mobile Install And App Attribution
 
 ## Authority Sources
 
-- Apple AdAttributionKit
-- Apple AdAttributionKit attribution rules
-- Apple AdServices framework
-- Apple AdServices attribution payloads
-- Google Play Install Referrer API
-- Google Play Install Referrer Library
-- Privacy Sandbox on Android Attribution Reporting API
+- [Apple AdAttributionKit](https://developer.apple.com/app-store/ad-attribution/)
+- [Apple AdAttributionKit attribution rules](https://developer.apple.com/documentation/adattributionkit/configuring-attribution-rules-for-your-app)
+- [Apple AdServices framework](https://developer.apple.com/documentation/AdServices/)
+- [Apple AdServices attribution payloads](https://developer.apple.com/documentation/AdServices/AAAttribution/attributionToken%28%29)
+- [Google Play Install Referrer API](https://developer.android.com/google/play/installreferrer)
+- [Google Play Install Referrer Library](https://developer.android.com/google/play/installreferrer/library)
+- [Privacy Sandbox on Android Attribution Reporting API](https://developers.google.com/admob/android/privacy/sandbox)
 
 ## Included ADRs
 
@@ -80,6 +101,7 @@ spec_manifest = load_document_manifest("spec")
 
 ## Resources
 
-- GitHub repository: https://github.com/groupsum/mobile-install-attribution-governance-pack
-- PyPI package: https://pypi.org/project/mobile-install-attribution-governance-pack/
-- SSOT Registry: https://pypi.org/project/ssot-registry/
+- GitHub package repository: [groupsum/mobile-install-attribution-governance-pack](https://github.com/groupsum/mobile-install-attribution-governance-pack)
+- PyPI package: [mobile-install-attribution-governance-pack](https://pypi.org/project/mobile-install-attribution-governance-pack/)
+- SSOT Registry: [ssot-registry](https://pypi.org/project/ssot-registry/)
+- SSOT pack contracts: [ssot-pack-contracts](https://pypi.org/project/ssot-pack-contracts/)
