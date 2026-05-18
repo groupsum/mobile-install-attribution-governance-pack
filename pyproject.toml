@@ -17,12 +17,22 @@ dependencies = [
 keywords = [
   "ssot",
   "ssot-registry",
-  "extension-pack",
+  "ssot-pack-contracts",
   "governance-pack",
-    "governance",
+  "governance",
   "adr",
   "spec",
-  "uv",
+  "architecture-decision-records",
+  "conformance",
+  "compliance",
+  "mobile-attribution",
+  "install-attribution",
+  "adattributionkit",
+  "adservices",
+  "install-referrer",
+  "android",
+  "ios",
+  "privacy-sandbox",
 ]
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -37,10 +47,15 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
+  "Topic :: Documentation",
   "Topic :: Software Development :: Documentation",
   "Topic :: Software Development :: Libraries :: Python Modules",
   "Topic :: Software Development :: Quality Assurance",
   "Topic :: Utilities",
+  "Environment :: Web Environment",
+  "Operating System :: Android",
+  "Operating System :: iOS",
+  "Topic :: Scientific/Engineering :: Information Analysis",
 ]
 
 [project.urls]
