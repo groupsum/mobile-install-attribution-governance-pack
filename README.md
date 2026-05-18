@@ -28,7 +28,6 @@ Use this package when a downstream repository needs to answer: which standards, 
 ## Pack Metadata
 
 - Pack ID: `pack:mobile-install-attribution`
-- Priority: `P1.4`
 - PyPI package: `mobile-install-attribution-governance-pack`
 - Import package: `ssot_pack_mobile_install_attribution`
 - GitHub repository: `groupsum/mobile-install-attribution-governance-pack`
