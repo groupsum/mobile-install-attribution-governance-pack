@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "ssot_package_name": "ssot-pack-mobile-install-attribution",
+  "ssot_package_name": "mobile-install-attribution-governance-pack",
   "origin": {
     "id": "pack:mobile-install-attribution",
-    "package_name": "ssot-pack-mobile-install-attribution",
+    "package_name": "mobile-install-attribution-governance-pack",
     "import_name": "ssot_pack_mobile_install_attribution",
     "kind": "governance-pack",
     "title": "Mobile Install And App Attribution",
@@ -19,7 +19,7 @@
   "trust": {
     "trusted_by_default": false,
     "origin": "extension-pack",
-    "reservation_owner": "extension-pack:ssot-pack-mobile-install-attribution"
+    "reservation_owner": "extension-pack:mobile-install-attribution-governance-pack"
   },
   "documents": {
     "adr": {

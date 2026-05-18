@@ -90,7 +90,7 @@ wheels = [
 ]
 
 [[package]]
-name = "ssot-pack-mobile-install-attribution"
+name = "mobile-install-attribution-governance-pack"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

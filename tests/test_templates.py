@@ -16,21 +16,21 @@ from ssot_pack_mobile_install_attribution import (
 class GovernancePackManifestTests(unittest.TestCase):
     def test_pack_metadata_contract_is_exposed(self) -> None:
         metadata = load_pack_metadata()
-        self.assertEqual("ssot-pack-mobile-install-attribution", __ssot_package_name__)
-        self.assertEqual("ssot-pack-mobile-install-attribution", __pypi_package_name__)
+        self.assertEqual("mobile-install-attribution-governance-pack", __ssot_package_name__)
+        self.assertEqual("mobile-install-attribution-governance-pack", __pypi_package_name__)
         self.assertEqual("1.0.0", metadata["schema_version"])
-        self.assertEqual("ssot-pack-mobile-install-attribution", metadata["ssot_package_name"])
+        self.assertEqual("mobile-install-attribution-governance-pack", metadata["ssot_package_name"])
         self.assertEqual("pack:mobile-install-attribution", metadata["origin"]["id"])
         self.assertEqual("ssot_pack_mobile_install_attribution", metadata["origin"]["import_name"])
         self.assertEqual("governance-pack", metadata["origin"]["kind"])
         self.assertEqual("extension-pack", metadata["trust"]["origin"])
-        self.assertEqual("extension-pack:ssot-pack-mobile-install-attribution", metadata["trust"]["reservation_owner"])
+        self.assertEqual("extension-pack:mobile-install-attribution-governance-pack", metadata["trust"]["reservation_owner"])
         self.assertFalse(metadata["trust"]["trusted_by_default"])
         self.assertEqual("1.0.0", load_pack_schema_version())
 
     def test_pack_manifest_contract_is_exposed(self) -> None:
         manifest = load_pack_manifest()
-        self.assertEqual("ssot-pack-mobile-install-attribution", manifest["metadata"]["origin"]["package_name"])
+        self.assertEqual("mobile-install-attribution-governance-pack", manifest["metadata"]["origin"]["package_name"])
         self.assertEqual(8, len(manifest["documents"]["adr"]))
         self.assertEqual(12, len(manifest["documents"]["spec"]))
 

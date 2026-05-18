@@ -1,4 +1,4 @@
-# ssot-pack-mobile-install-attribution
+# mobile-install-attribution-governance-pack
 
 Installable SSOT governance pack for Apple and Android mobile install attribution, app campaign attribution, and privacy-preserving app measurement.
 
@@ -8,10 +8,10 @@ This repository is an installable SSOT Registry governance pack. It packages imm
 
 - Pack ID: `pack:mobile-install-attribution`
 - Priority: `P1.4`
-- PyPI package: `ssot-pack-mobile-install-attribution`
+- PyPI package: `mobile-install-attribution-governance-pack`
 - Import package: `ssot_pack_mobile_install_attribution`
 - GitHub repository: `groupsum/mobile-install-attribution-governance-pack`
-- Reservation owner: `extension-pack:ssot-pack-mobile-install-attribution`
+- Reservation owner: `extension-pack:mobile-install-attribution-governance-pack`
 
 ## Domain Focus
 
@@ -56,15 +56,15 @@ Mobile Install And App Attribution
 ## Install With uv
 
 ```bash
-uv add ssot-pack-mobile-install-attribution
-uv add ssot-registry ssot-pack-mobile-install-attribution
+uv add mobile-install-attribution-governance-pack
+uv add ssot-registry mobile-install-attribution-governance-pack
 ```
 
 ## Use With The SSOT Registry CLI
 
 ```bash
-uvx --from ssot-registry ssot pack install ssot-pack-mobile-install-attribution
-uvx --from ssot-registry ssot pack sync . ssot-pack-mobile-install-attribution
+uvx --from ssot-registry ssot pack install mobile-install-attribution-governance-pack
+uvx --from ssot-registry ssot pack sync . mobile-install-attribution-governance-pack
 uv run ssot adr list .
 uv run ssot spec list .
 ```
@@ -81,5 +81,5 @@ spec_manifest = load_document_manifest("spec")
 ## Resources
 
 - GitHub repository: https://github.com/groupsum/mobile-install-attribution-governance-pack
-- PyPI package: https://pypi.org/project/ssot-pack-mobile-install-attribution/
+- PyPI package: https://pypi.org/project/mobile-install-attribution-governance-pack/
 - SSOT Registry: https://pypi.org/project/ssot-registry/

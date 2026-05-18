@@ -3,7 +3,7 @@ requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ssot-pack-mobile-install-attribution"
+name = "mobile-install-attribution-governance-pack"
 version = "0.1.0"
 description = "Installable SSOT governance pack for Apple and Android mobile install attribution, app campaign attribution, and privacy-preserving app measurement."
 readme = "README.md"
@@ -44,9 +44,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/groupsum/ssot-pack-mobile-install-attribution"
-Repository = "https://github.com/groupsum/ssot-pack-mobile-install-attribution"
-Issues = "https://github.com/groupsum/ssot-pack-mobile-install-attribution/issues"
+Homepage = "https://github.com/groupsum/mobile-install-attribution-governance-pack"
+Repository = "https://github.com/groupsum/mobile-install-attribution-governance-pack"
+Issues = "https://github.com/groupsum/mobile-install-attribution-governance-pack/issues"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

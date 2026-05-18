@@ -13,7 +13,7 @@ except ModuleNotFoundError:  # pragma: no cover
 ROOT = Path(__file__).resolve().parents[1]
 ADR_TEMPLATES = ROOT / "src" / "ssot_pack_mobile_install_attribution" / "templates" / "adr"
 SPEC_TEMPLATES = ROOT / "src" / "ssot_pack_mobile_install_attribution" / "templates" / "specs"
-RESERVATION_OWNER = "extension-pack:ssot-pack-mobile-install-attribution"
+RESERVATION_OWNER = "extension-pack:mobile-install-attribution-governance-pack"
 MINIMUM_SCHEMA_VERSION = "0.4.0"
 
 
