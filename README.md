@@ -33,7 +33,7 @@ Use this package when a downstream repository needs to answer: which standards, 
 - Pack ID: `pack:mobile-install-attribution`
 - PyPI package: `mobile-install-attribution-governance-pack`
 - Import package: `ssot_pack_mobile_install_attribution`
-- GitHub repository: `groupsum/mobile-install-attribution-governance-pack`
+- GitHub repository: [groupsum/mobile-install-attribution-governance-pack](https://github.com/groupsum/mobile-install-attribution-governance-pack)
 - Reservation owner: `extension-pack:mobile-install-attribution-governance-pack`
 
 ## Domain Focus
