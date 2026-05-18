@@ -1,10 +1,13 @@
+<div align="center">
+
 # mobile-install-attribution-governance-pack
 
 [![PyPI version](https://img.shields.io/pypi/v/mobile-install-attribution-governance-pack.svg)](https://pypi.org/project/mobile-install-attribution-governance-pack/)
 [![Python versions](https://img.shields.io/pypi/pyversions/mobile-install-attribution-governance-pack.svg)](https://pypi.org/project/mobile-install-attribution-governance-pack/)
 [![License](https://img.shields.io/pypi/l/mobile-install-attribution-governance-pack.svg)](https://pypi.org/project/mobile-install-attribution-governance-pack/)
 [![Publish](https://github.com/groupsum/mobile-install-attribution-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/mobile-install-attribution-governance-pack/actions/workflows/publish.yml)
-[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/mobile-install-attribution-governance-pack)
+
+</div>
 
 Installable SSOT governance pack for Apple and Android mobile install attribution, app campaign attribution, and privacy-preserving app measurement.
 
