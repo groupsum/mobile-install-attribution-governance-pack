@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mobile-install-attribution-governance-pack"
-version = "0.1.1.dev1"
+version = "0.1.1.dev2"
 description = "Installable SSOT governance pack for Apple and Android mobile install attribution, app campaign attribution, and privacy-preserving app measurement."
 readme = "README.md"
 requires-python = ">=3.10,<3.15"
